@@ -1,0 +1,3 @@
+C:\Users\dell\Desktop\Basic Express Web API\Basic Express Web API\obj\Debug\Basic Express Web API.njsprojAssemblyReference.cache
+C:\Users\dell\Desktop\Basic Express Web API\Basic Express Web API\obj\Debug\Basic Express Web API.njsproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Basic Express Web API\Basic Express Web API\bin\Microsoft.NodejsTools.WebRole.dll
