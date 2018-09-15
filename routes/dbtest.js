@@ -17,8 +17,13 @@ router.get('/', function (req, res) {
     connection
         .then(conn => conn.query('SELECT * FROM users', req.body.id))
         .then(rows => res.send(rows));
+});
 
 
+
+
+router.get('/', function (req, res) {
+    res.send('respond with a resource');
 });
 
 /* GET users listing. 

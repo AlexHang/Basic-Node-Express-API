@@ -16,6 +16,7 @@ var users = require('./routes/users');
 var request = require('./routes/request');
 var dbtest = require('./routes/dbtest');
 var upload = require('./routes/Upload');
+var FileDB = require('./routes/FileDB');
 var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -35,6 +36,7 @@ app.use('/users', users);
 app.use('/request', request);
 app.use('/db', dbtest);
 app.use('/uploadtest', upload);
+app.use('/FileDb', FileDB);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
